@@ -1,0 +1,75 @@
+
+.wrapper{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    width: 100%;
+    overflow: hidden;
+    background-color: #01E30C;
+    height: 160px;
+}
+
+header .logo{
+    float: left;
+    position: absolute;
+}
+
+header .logo img{
+    width: 150px;
+    height: 140px;
+    padding-left: 20px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    color: #ddd;
+}
+
+header nav{
+    text-align: center;
+}
+
+header nav a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header nav a:hover{
+    background: #BF0F07;
+    border-radius: 50px;
+}
+
+.tabla{
+    display: table;
+    padding: 5px;
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+}
+
+.fila{
+    display: table-row;
+}
+
+.celda{
+    display: table-cell;
+    padding: 5px;
+}
+
+
+.tabla .fila .celda img{
+    width: 400px;
+    height: 280px;
+}
