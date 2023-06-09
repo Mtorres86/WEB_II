@@ -1,0 +1,22 @@
+H1{
+    color:black
+}
+
+.tablaquienes {
+    display: flex;
+    align-items: center;
+  }
+  .filaquienes {
+    display: flex;
+    align-items: center;
+  }
+  .celdaquiqnes {
+    padding: 10px;
+  }
+  
+  .celdaquienes p  {
+    margin-right: 10px;
+  }
+  p{
+    color: black;
+  }
