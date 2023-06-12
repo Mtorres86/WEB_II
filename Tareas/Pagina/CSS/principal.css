@@ -1,62 +1,116 @@
- /* Estilos del menú desplegable */
- .dropdown-menu {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  padding: 10px;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.dropdown:hover .dropdown-menu {
-  display: block;
+.contenedor-principal {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-/* Resto de estilos del encabezado */
-/* ... */
 header {
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-  
-  .logo-container {
-    float: left;
-    margin-right: 10px; /* Ajusta la separación horizontal entre el logotipo y el título */
-    
+  background-color: #1030e4;
+  padding: 20px;
 }
-  
-  
-  .title-container {
-    float: left;
-    margin-top: 5px; /* Ajusta la separación vertical entre el logotipo y el título */
 
-   
-;
-  }
-  
-  nav {
-    clear: both;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: #333;
-  }
-  .logo-container img {
-    width: 300px; /* Ajusta el ancho de la imagen a 100 píxeles */
-    height: auto; /* Mantiene la proporción de aspecto */
-    padding: 0;
-  }
+.logo-container {
+  float: left;
+  margin-right: 10px;
+}
 
- 
+.title-container {
+  float: left;
+}
 
-  
+nav {
+  clear: both;
+  text-align: center;
+  background-color: rgb(103, 103, 133);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.logo-container img {
+  width: 200px;
+  height: auto;
+  padding: 0;
+}
+
+.contenedor-productos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.producto {
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.footer {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.producto img {
+  width: 150px;
+  height: 200px;
+}
+
+footer {
+  background-color: #4CAF50; /* Color de fondo del footer */
+  padding: 20px;
+}
+
+.icon-container {
+  text-align: left; /* Alineación a la izquierda */
+}
+
+.icon-container i {
+  margin-right: 10px; /* Espacio entre los iconos */
+  color: white; /* Color de los iconos */
+  font-size: 24px; /* Tamaño de los iconos */
+}
+
+
+.btn {
+  background-color: #4CAF50; /* Cambia el color de fondo al deseado */
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  border-radius: 20px;
+}
+
+.btn::after {
+  content: '\2192'; /* Código Unicode de la flecha hacia la derecha */
+  position: absolute;
+  top: 50%;
+  right: 15px; /* Ajusta el valor para separar más la flecha */
+  transform: translateY(-50%);
+}
+
+

@@ -1,48 +1,92 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Pagina/CSS/principal.css">
-    <title>HTML+CSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <title>Libreria</title>
+</head>
 </head>
 <body>
-  <!--Inicio del emcabezado-->
+  <div class="contenedor-principal">
     <header>
-        <div class="logo-container">
-          <img src="/Pagina/img/html-tagst.jpg" alt="Logo">
-        </div>
-        <div class="title-container">
-          <h1>Aprende HTML y CSS Fácil</h1>
-        </div>
-        <!--Menu-->
-        <nav>
-          <ul>
-            <li><a href="#">Inicio</a></li>
-            <li class="dropdown">
-              <a href="#">Acerca de</a>
-              <ul class="dropdown-menu"><li><a href="#">Nosotros</a></li>
-                <li><a href="#">Galeria</a></li> 
-              </ul>
-            </li>
+      <div class="logo-container">
+        <img src="/iconos/libro.png" alt="Logo">
+      </div>
+      <div class="title-container">
+        <h1>Aprende HTML y CSS Fácil</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li class="dropdown">
+            <a href="#">Acerca de</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Nosotros</a></li>
+              <li><a href="#">Galeria</a></li> 
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">Servicios</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Servicio 1</a></li>
+              <li><a href="#">Servicio 2</a></li>
+              <li><a href="#">Servicio 3</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
 
-            <li class="dropdown">
-              <a href="#">Servicios</a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Servicio 1</a></li>
-                <li><a href="#">Servicio 2</a></li>
-                <li><a href="#">Servicio 3</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Contacto</a></li>
-          </ul>
-        </nav>
-        <!--Fin del menu-->
-      </header>
-      <!--Fin del emcabezado-->
+    <div class="contenedor-productos">
+      <!-- Inicio del menú ventas -->
+      <div class="producto">
+        <img src="/img/libro1.jpeg" alt="Nombre del producto">
+        <h3>Nombre del producto</h3>
+        <p>Descripción del producto</p>
+       
+        <button class="btn">Agregar al carrito</button>
+      </div>
+
+      <div class="producto">
+        <img src="/img/libro2.jpg" alt="Nombre del producto">
+        <h3>Nombre del producto</h3>
+        <p>Descripción del producto</p>
+    
+        <button class="btn">Agregar al carrito</button>
+      </div>
+
+      <div class="producto">
+        <img src="/img/Libro3.webp" alt="Nombre del producto">
+        <h3>Nombre del producto</h3>
+        <p>Descripción del producto</p>
+     
+        <button class="btn">Agregar al carrito</button>
+      </div>
+
+      <div class="producto">
+        <img src="/img/libro4.jpeg" alt="Nombre del producto">
+        <h3>Nombre del producto</h3>
+        <p>Descripción del producto</p>
       
+        <button class="btn">Agregar al carrito</button>
+      </div>
+      <!-- Fin del menú ventas -->
+    </div>
 
+    <footer class="footer">
+      <div class="icon-container">
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+    </footer>
+  </div>
 </body>
+</html>
 </html>
