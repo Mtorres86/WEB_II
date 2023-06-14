@@ -59,6 +59,7 @@ header nav a:hover{
     margin: auto;
     text-align: justify;
     align-items: center;
+    margin-top: 70px;
 
 }
 
@@ -71,4 +72,50 @@ header nav a:hover{
     padding: 5px;
 }
 
+.tabla .fila .celda img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
 
+}
+
+.tabla .fila .celda p{
+background-color: #efefef;
+border-radius: 10px;
+padding: 10px;
+}
+.tabla .fila .celda p:hover{
+    background-color: #ddd;
+    box-shadow: 2px 2px 1px rgb(0, 0, 0,2);
+
+
+}
+
+/**Estilos pie de pagina*/
+.pie-pagina{
+    background-color: black;
+    width: 90%;
+    margin: auto;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3);
+    grid-grap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 200px;
+    height: 200px;
+}
